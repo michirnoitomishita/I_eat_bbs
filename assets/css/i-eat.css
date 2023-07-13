@@ -1,0 +1,83 @@
+body {
+  background-color: #FFFAF0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #FFA500;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1.title {
+  font-size: 2em;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #FFA500;
+  margin-bottom: 20px;
+}
+
+.errorMessage {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.thw {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.chw .thrt h1 {
+  color: #FF4500;
+  margin: 0;
+}
+
+.wrapper {
+  border: 1px solid #FFA500;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+form.formWrapper {
+  border: 1px solid #FFA500;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form.formWrapper input[type="submit"] {
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form.formWrapper input[type="text"],
+form.formWrapper .commentTextArea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+form.formWrapper .commentTextArea {
+  height: 100px;
+}
